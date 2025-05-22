@@ -33,6 +33,7 @@ export async function connectDB(){
     throw error
   }
 
+  console.log("Connection successfull")
   return cached.conn
 
 }
